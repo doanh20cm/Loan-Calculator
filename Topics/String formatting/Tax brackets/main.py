@@ -1,0 +1,2 @@
+income = int(input())
+print(f"The tax for {income} is {0 if income in range(0, 15528) else 15 if income in range(15528, 42708) else 25 if income in range(42708, 132407) else 28}%. That is {round(income * (0 if income in range(0, 15528) else 15 if income in range(15528, 42708) else 25 if income in range(42708, 132407) else 28) / 100)} dollars!")
